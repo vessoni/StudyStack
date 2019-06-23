@@ -11,7 +11,7 @@ const io = require("socket.io")(server);
 //acesso http e websocket.
 
 mongoose.connect(
-  "mongodb+srv://login:password@cluster0-7wt5a.mongodb.net/test?retryWrites=true&w=majority",
+  "mongodb+srv://vessoni:vessoni@cluster0-7wt5a.mongodb.net/test?retryWrites=true&w=majority",
   {
     useNewUrlParser: true
   }
